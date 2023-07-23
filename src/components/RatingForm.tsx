@@ -5,7 +5,7 @@ import Image from 'next/image'
 
 type RatingFormProps = {
     rating: number,
-    onRatingChange: (e: any) => void,
+    onRatingChange: (value: number) => void,
     onFormSubmit: (e: any) => void
 }
 
