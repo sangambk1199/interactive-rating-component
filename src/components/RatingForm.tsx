@@ -20,7 +20,7 @@ export default function RatingForm({rating, onRatingChange, onFormSubmit}: Ratin
             <h1 className="text-2xl font-medium mb-3">How did we do?</h1>
             
             <p className="mb-6 text-gray-400 text-sm leading-relaxed">
-                Please let us know how we did with your support request. All feedback is appreciated to help us improve our offering!
+                Please let us know how we did with your support request. All feedback is appreciated to help us improve our offering!!
             </p>
 
             <div className="flex justify-between w-full mb-8">
