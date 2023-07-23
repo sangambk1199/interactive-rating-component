@@ -8,7 +8,7 @@ export default function Home() {
   const [isFormSubmitted, setIsFormSubmitted] = useState(false);
   const [rating, setRating] = useState(0);
 
-  const onRatingChange = (value: number) => {  
+  const handleRatingChange = (value: number) => {  
     setRating(value);
   }
 
@@ -21,7 +21,7 @@ export default function Home() {
   return (
     <div className="container">
       <div className="bg-gray-800 rounded-3xl w-24rem mx-auto p-8">
-        { ( isFormSubmitted && rating ) ? <ThankYouConfirmation rating={rating} /> : <RatingForm rating={rating} onRatingChange={onRatingChange} onFormSubmit={onFormSubmit}/> }
+        { ( isFormSubmitted && rating ) ? <ThankYouConfirmation rating={rating} /> : <RatingForm rating={rating} onRatingChange={handleRatingChange} onFormSubmit={onFormSubmit}/> }
       </div>
     </div>
   )

@@ -1,5 +1,4 @@
 type NumericRatingProps = {
-    key: number,
     ratingScore: number,
     onRatingChange: (rating: number) => void
 }
