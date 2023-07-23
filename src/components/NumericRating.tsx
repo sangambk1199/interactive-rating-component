@@ -1,9 +1,9 @@
 type NumericRatingProps = {
     ratingScore: number,
-    //onRatingChange: (rating: number) => void
+    onRatingChange: (rating: number) => void
 }
 
-export default function NumericRating({ratingScore}: NumericRatingProps) {
+export default function NumericRating({ratingScore, onRatingChange}: NumericRatingProps) {
     return (
         <div>
             {/* onChange={() => onRatingChange(ratingScore)} */}
