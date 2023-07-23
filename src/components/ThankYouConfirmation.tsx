@@ -13,7 +13,7 @@ export default function ThankYouConfirmation({ rating }: ThankYouConfirmationPro
             </span>
             <div>
                 <h1 className="text-2xl font-medium mb-3 text-center">Thank you!</h1>
-                <p className="mb-6 text-gray-400 text-sm leading-relaxed text-center">We appreciate you taking the time to give a rating. If you ever need more support, do not hesitate to get in touch!</p>
+                <p className="mb-6 text-gray-400 text-sm leading-relaxed text-center">We appreciate you taking the time to give a rating. If you ever need more support, don&apos;t hesitate to get in touch!</p>
             </div>
         </div>
     )
