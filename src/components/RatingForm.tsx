@@ -24,7 +24,7 @@ export default function RatingForm({rating, onRatingChange, onFormSubmit}: Ratin
             </p>
 
             <div className="flex justify-between w-full mb-8">
-                { [1, 2, 3, 4, 5].map( rating => <NumericRating key={rating} ratingScore={rating}  /> ) }
+                { [1, 2, 3, 4, 5].map( rating => <NumericRating key={rating} ratingScore={rating} onRatingChange={onRatingChange} /> ) }
                 {/* onRatingChange={onRatingChange} */}
             </div>
 
